@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43718BC72382BC1700215448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BC62382BC1700215448 /* AppDelegate.swift */; };
+		43718BC92382BC1700215448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BC82382BC1700215448 /* SceneDelegate.swift */; };
+		43718BCB2382BC1700215448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BCA2382BC1700215448 /* ViewController.swift */; };
+		43718BCE2382BC1700215448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43718BCC2382BC1700215448 /* Main.storyboard */; };
+		43718BD12382BC1700215448 /* Picken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43718BCF2382BC1700215448 /* Picken.xcdatamodeld */; };
+		43718BD32382BC1900215448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43718BD22382BC1900215448 /* Assets.xcassets */; };
+		43718BD62382BC1900215448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43718BD42382BC1900215448 /* LaunchScreen.storyboard */; };
+		43718BE12382BC1900215448 /* PickenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BE02382BC1900215448 /* PickenTests.swift */; };
+		43718BEC2382BC1900215448 /* PickenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BEB2382BC1900215448 /* PickenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43718BDD2382BC1900215448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43718BBB2382BC1700215448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43718BC22382BC1700215448;
+			remoteInfo = Picken;
+		};
+		43718BE82382BC1900215448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43718BBB2382BC1700215448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43718BC22382BC1700215448;
+			remoteInfo = Picken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43718BC32382BC1700215448 /* Picken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43718BC62382BC1700215448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43718BC82382BC1700215448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43718BCA2382BC1700215448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43718BCD2382BC1700215448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43718BD02382BC1700215448 /* Picken.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Picken.xcdatamodel; sourceTree = "<group>"; };
+		43718BD22382BC1900215448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43718BD52382BC1900215448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43718BD72382BC1900215448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43718BDC2382BC1900215448 /* PickenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43718BE02382BC1900215448 /* PickenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickenTests.swift; sourceTree = "<group>"; };
+		43718BE22382BC1900215448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43718BE72382BC1900215448 /* PickenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43718BEB2382BC1900215448 /* PickenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickenUITests.swift; sourceTree = "<group>"; };
+		43718BED2382BC1900215448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43718BC02382BC1700215448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BD92382BC1900215448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BE42382BC1900215448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43718BBA2382BC1700215448 = {
+			isa = PBXGroup;
+			children = (
+				43718BC52382BC1700215448 /* Picken */,
+				43718BDF2382BC1900215448 /* PickenTests */,
+				43718BEA2382BC1900215448 /* PickenUITests */,
+				43718BC42382BC1700215448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43718BC42382BC1700215448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43718BC32382BC1700215448 /* Picken.app */,
+				43718BDC2382BC1900215448 /* PickenTests.xctest */,
+				43718BE72382BC1900215448 /* PickenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43718BC52382BC1700215448 /* Picken */ = {
+			isa = PBXGroup;
+			children = (
+				43718BC62382BC1700215448 /* AppDelegate.swift */,
+				43718BC82382BC1700215448 /* SceneDelegate.swift */,
+				43718BCA2382BC1700215448 /* ViewController.swift */,
+				43718BCC2382BC1700215448 /* Main.storyboard */,
+				43718BD22382BC1900215448 /* Assets.xcassets */,
+				43718BD42382BC1900215448 /* LaunchScreen.storyboard */,
+				43718BD72382BC1900215448 /* Info.plist */,
+				43718BCF2382BC1700215448 /* Picken.xcdatamodeld */,
+			);
+			path = Picken;
+			sourceTree = "<group>";
+		};
+		43718BDF2382BC1900215448 /* PickenTests */ = {
+			isa = PBXGroup;
+			children = (
+				43718BE02382BC1900215448 /* PickenTests.swift */,
+				43718BE22382BC1900215448 /* Info.plist */,
+			);
+			path = PickenTests;
+			sourceTree = "<group>";
+		};
+		43718BEA2382BC1900215448 /* PickenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43718BEB2382BC1900215448 /* PickenUITests.swift */,
+				43718BED2382BC1900215448 /* Info.plist */,
+			);
+			path = PickenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43718BC22382BC1700215448 /* Picken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43718BF02382BC1900215448 /* Build configuration list for PBXNativeTarget "Picken" */;
+			buildPhases = (
+				43718BBF2382BC1700215448 /* Sources */,
+				43718BC02382BC1700215448 /* Frameworks */,
+				43718BC12382BC1700215448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picken;
+			productName = Picken;
+			productReference = 43718BC32382BC1700215448 /* Picken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43718BDB2382BC1900215448 /* PickenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43718BF32382BC1900215448 /* Build configuration list for PBXNativeTarget "PickenTests" */;
+			buildPhases = (
+				43718BD82382BC1900215448 /* Sources */,
+				43718BD92382BC1900215448 /* Frameworks */,
+				43718BDA2382BC1900215448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43718BDE2382BC1900215448 /* PBXTargetDependency */,
+			);
+			name = PickenTests;
+			productName = PickenTests;
+			productReference = 43718BDC2382BC1900215448 /* PickenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43718BE62382BC1900215448 /* PickenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43718BF62382BC1900215448 /* Build configuration list for PBXNativeTarget "PickenUITests" */;
+			buildPhases = (
+				43718BE32382BC1900215448 /* Sources */,
+				43718BE42382BC1900215448 /* Frameworks */,
+				43718BE52382BC1900215448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43718BE92382BC1900215448 /* PBXTargetDependency */,
+			);
+			name = PickenUITests;
+			productName = PickenUITests;
+			productReference = 43718BE72382BC1900215448 /* PickenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43718BBB2382BC1700215448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = SPURGE;
+				TargetAttributes = {
+					43718BC22382BC1700215448 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					43718BDB2382BC1900215448 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 43718BC22382BC1700215448;
+					};
+					43718BE62382BC1900215448 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 43718BC22382BC1700215448;
+					};
+				};
+			};
+			buildConfigurationList = 43718BBE2382BC1700215448 /* Build configuration list for PBXProject "Picken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43718BBA2382BC1700215448;
+			productRefGroup = 43718BC42382BC1700215448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43718BC22382BC1700215448 /* Picken */,
+				43718BDB2382BC1900215448 /* PickenTests */,
+				43718BE62382BC1900215448 /* PickenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43718BC12382BC1700215448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43718BD62382BC1900215448 /* LaunchScreen.storyboard in Resources */,
+				43718BD32382BC1900215448 /* Assets.xcassets in Resources */,
+				43718BCE2382BC1700215448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BDA2382BC1900215448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BE52382BC1900215448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43718BBF2382BC1700215448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43718BCB2382BC1700215448 /* ViewController.swift in Sources */,
+				43718BD12382BC1700215448 /* Picken.xcdatamodeld in Sources */,
+				43718BC72382BC1700215448 /* AppDelegate.swift in Sources */,
+				43718BC92382BC1700215448 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BD82382BC1900215448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43718BE12382BC1900215448 /* PickenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43718BE32382BC1900215448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43718BEC2382BC1900215448 /* PickenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43718BDE2382BC1900215448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43718BC22382BC1700215448 /* Picken */;
+			targetProxy = 43718BDD2382BC1900215448 /* PBXContainerItemProxy */;
+		};
+		43718BE92382BC1900215448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43718BC22382BC1700215448 /* Picken */;
+			targetProxy = 43718BE82382BC1900215448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43718BCC2382BC1700215448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43718BCD2382BC1700215448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43718BD42382BC1900215448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43718BD52382BC1900215448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43718BEE2382BC1900215448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43718BEF2382BC1900215448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43718BF12382BC1900215448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.Picken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43718BF22382BC1900215448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.Picken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43718BF42382BC1900215448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.PickenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picken.app/Picken";
+			};
+			name = Debug;
+		};
+		43718BF52382BC1900215448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.PickenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picken.app/Picken";
+			};
+			name = Release;
+		};
+		43718BF72382BC1900215448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.PickenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picken;
+			};
+			name = Debug;
+		};
+		43718BF82382BC1900215448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamcr7.PickenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43718BBE2382BC1700215448 /* Build configuration list for PBXProject "Picken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43718BEE2382BC1900215448 /* Debug */,
+				43718BEF2382BC1900215448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43718BF02382BC1900215448 /* Build configuration list for PBXNativeTarget "Picken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43718BF12382BC1900215448 /* Debug */,
+				43718BF22382BC1900215448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43718BF32382BC1900215448 /* Build configuration list for PBXNativeTarget "PickenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43718BF42382BC1900215448 /* Debug */,
+				43718BF52382BC1900215448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43718BF62382BC1900215448 /* Build configuration list for PBXNativeTarget "PickenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43718BF72382BC1900215448 /* Debug */,
+				43718BF82382BC1900215448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43718BCF2382BC1700215448 /* Picken.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43718BD02382BC1700215448 /* Picken.xcdatamodel */,
+			);
+			currentVersion = 43718BD02382BC1700215448 /* Picken.xcdatamodel */;
+			path = Picken.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43718BBB2382BC1700215448 /* Project object */;
+}
