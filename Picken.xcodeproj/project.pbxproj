@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,14 @@
 		43718BD62382BC1900215448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43718BD42382BC1900215448 /* LaunchScreen.storyboard */; };
 		43718BE12382BC1900215448 /* PickenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BE02382BC1900215448 /* PickenTests.swift */; };
 		43718BEC2382BC1900215448 /* PickenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43718BEB2382BC1900215448 /* PickenUITests.swift */; };
+		43718C0023830ECD00215448 /* low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png in Resources */ = {isa = PBXBuildFile; fileRef = 43718BFF23830ECD00215448 /* low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png */; };
+		43718C0223830F9400215448 /* kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png in Resources */ = {isa = PBXBuildFile; fileRef = 43718C0123830F9400215448 /* kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png */; };
+		43718C04238310CA00215448 /* BeautyMountains.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43718C03238310CA00215448 /* BeautyMountains.ttf */; };
+		43718C082383118500215448 /* QuickKiss.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43718C072383118500215448 /* QuickKiss.ttf */; };
+		43718C0A2383119100215448 /* VeganStyle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43718C092383119100215448 /* VeganStyle.ttf */; };
+		43718C0C2383119D00215448 /* Cassandra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43718C0B2383119D00215448 /* Cassandra.ttf */; };
+		43E4AD26238332B100C78DA8 /* istanbul.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43E4AD25238332B100C78DA8 /* istanbul.ttf */; };
+		43E4AD282383337D00C78DA8 /* Arkhip_font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43E4AD272383337D00C78DA8 /* Arkhip_font.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		43718BE72382BC1900215448 /* PickenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43718BEB2382BC1900215448 /* PickenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickenUITests.swift; sourceTree = "<group>"; };
 		43718BED2382BC1900215448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43718BFF23830ECD00215448 /* low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png"; sourceTree = "<group>"; };
+		43718C0123830F9400215448 /* kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png"; sourceTree = "<group>"; };
+		43718C03238310CA00215448 /* BeautyMountains.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeautyMountains.ttf; sourceTree = "<group>"; };
+		43718C072383118500215448 /* QuickKiss.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = QuickKiss.ttf; sourceTree = "<group>"; };
+		43718C092383119100215448 /* VeganStyle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VeganStyle.ttf; sourceTree = "<group>"; };
+		43718C0B2383119D00215448 /* Cassandra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cassandra.ttf; sourceTree = "<group>"; };
+		43E4AD25238332B100C78DA8 /* istanbul.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = istanbul.ttf; sourceTree = "<group>"; };
+		43E4AD272383337D00C78DA8 /* Arkhip_font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arkhip_font.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,7 @@
 				43718BDF2382BC1900215448 /* PickenTests */,
 				43718BEA2382BC1900215448 /* PickenUITests */,
 				43718BC42382BC1700215448 /* Products */,
+				E8C364896DE0939ACAD0134F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +118,12 @@
 		43718BC52382BC1700215448 /* Picken */ = {
 			isa = PBXGroup;
 			children = (
+				43718C062383115600215448 /* Fonts */,
 				43718BC62382BC1700215448 /* AppDelegate.swift */,
 				43718BC82382BC1700215448 /* SceneDelegate.swift */,
 				43718BCA2382BC1700215448 /* ViewController.swift */,
 				43718BCC2382BC1700215448 /* Main.storyboard */,
+				43718C052383110E00215448 /* images */,
 				43718BD22382BC1900215448 /* Assets.xcassets */,
 				43718BD42382BC1900215448 /* LaunchScreen.storyboard */,
 				43718BD72382BC1900215448 /* Info.plist */,
@@ -129,6 +148,35 @@
 				43718BED2382BC1900215448 /* Info.plist */,
 			);
 			path = PickenUITests;
+			sourceTree = "<group>";
+		};
+		43718C052383110E00215448 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				43718BFF23830ECD00215448 /* low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png */,
+				43718C0123830F9400215448 /* kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		43718C062383115600215448 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43E4AD272383337D00C78DA8 /* Arkhip_font.ttf */,
+				43E4AD25238332B100C78DA8 /* istanbul.ttf */,
+				43718C0B2383119D00215448 /* Cassandra.ttf */,
+				43718C092383119100215448 /* VeganStyle.ttf */,
+				43718C072383118500215448 /* QuickKiss.ttf */,
+				43718C03238310CA00215448 /* BeautyMountains.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E8C364896DE0939ACAD0134F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				43718BD62382BC1900215448 /* LaunchScreen.storyboard in Resources */,
+				43718C04238310CA00215448 /* BeautyMountains.ttf in Resources */,
+				43718C0023830ECD00215448 /* low-angle-view-photography-of-eiffel-tower-in-france-paris-611230-min_optimized.png in Resources */,
+				43718C0C2383119D00215448 /* Cassandra.ttf in Resources */,
+				43718C082383118500215448 /* QuickKiss.ttf in Resources */,
+				43718C0223830F9400215448 /* kasper-rasmussen-2MIvtFP68OQ-unsplash-min.png in Resources */,
+				43E4AD26238332B100C78DA8 /* istanbul.ttf in Resources */,
+				43718C0A2383119100215448 /* VeganStyle.ttf in Resources */,
 				43718BD32382BC1900215448 /* Assets.xcassets in Resources */,
+				43E4AD282383337D00C78DA8 /* Arkhip_font.ttf in Resources */,
 				43718BCE2382BC1700215448 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +493,6 @@
 		43718BF12382BC1900215448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Picken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +509,6 @@
 		43718BF22382BC1900215448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Picken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
